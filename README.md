@@ -1,2 +1,4 @@
-# simple-feature-section
-A challenge from devchallenges
+# A simple feature section
+Simple feature section for devchallenges.io
+
+

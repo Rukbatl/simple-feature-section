@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Outfit', Sans-serif;
+}
+
+.header {
+    text-align: center;
+}
+
+h1 {
+    color: #E5E7EB;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+h2 {
+    color: #E5E7EB;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+p {
+    color: #9DA3AE;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+body {
+    background-color: #121826;
+    background-image: url(images/Background_image.svg);
+
+}
+
+figure {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 5px;
+}
+
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    margin: 20px;
+    padding: 15px;
+    height: auto;
+    border-radius: 25px;
+    background: #212936;
+    justify-content: flex-start;
+    width: calc(33.33% - 60px);
+}
+
+.first-icon {
+    background-color: #FCEED8;
+}
+
+.second-icon {
+    background-color: #DEE9FC;
+}
+
+.thrid-icon {
+    background-color: #FBE5E6;
+}
+
+.card-image, .card-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 20px;
+    flex: 1;
+}
+
+@media (max-width: 1024px) {
+    .row {
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 25px;
+    }
+    .card {
+        width: calc(50% - 60px);
+    }
+
+  }
+
+
+@media (max-width: 640px) {
+    .card {
+      width: 100%;
+    }
+
+    .row {
+        margin: 50px;
+    }
+  }
+
+
+
